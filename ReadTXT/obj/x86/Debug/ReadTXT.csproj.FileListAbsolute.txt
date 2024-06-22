@@ -1,0 +1,69 @@
+C:\Users\IRIS\Documents\Visual Studio 2010\Projects\ReadTXT\ReadTXT\bin\Debug\ReadTXT.exe
+C:\Users\IRIS\Documents\Visual Studio 2010\Projects\ReadTXT\ReadTXT\bin\Debug\ReadTXT.pdb
+C:\Users\IRIS\Documents\Visual Studio 2010\Projects\ReadTXT\ReadTXT\obj\x86\Debug\ReadTXT.Properties.Resources.resources
+C:\Users\IRIS\Documents\Visual Studio 2010\Projects\ReadTXT\ReadTXT\obj\x86\Debug\ReadTXT.ReadTxt.resources
+C:\Users\IRIS\Documents\Visual Studio 2010\Projects\ReadTXT\ReadTXT\obj\x86\Debug\ReadTXT.csproj.GenerateResource.Cache
+C:\Users\IRIS\Documents\Visual Studio 2010\Projects\ReadTXT\ReadTXT\obj\x86\Debug\ReadTXT.exe
+C:\Users\IRIS\Documents\Visual Studio 2010\Projects\ReadTXT\ReadTXT\obj\x86\Debug\ReadTXT.pdb
+C:\Users\IRIS\Documents\Visual Studio 2010\Projects\ReadTXT\ReadTXT\bin\Debug\barcodelib.dll
+C:\Users\IRIS\Documents\Visual Studio 2010\Projects\ReadTXT\ReadTXT\bin\Debug\zxing.dll
+C:\Users\IRIS\Documents\Visual Studio 2010\Projects\ReadTXT\ReadTXT\obj\x86\Debug\ReadTXT.csprojResolveAssemblyReference.cache
+C:\Users\IRIS\Desktop\ReadTXT\ReadTXT\bin\Debug\ReadTXT.exe
+C:\Users\IRIS\Desktop\ReadTXT\ReadTXT\bin\Debug\ReadTXT.pdb
+C:\Users\IRIS\Desktop\ReadTXT\ReadTXT\obj\x86\Debug\ReadTXT.Properties.Resources.resources
+C:\Users\IRIS\Desktop\ReadTXT\ReadTXT\obj\x86\Debug\ReadTXT.ReadTxt.resources
+C:\Users\IRIS\Desktop\ReadTXT\ReadTXT\obj\x86\Debug\ReadTXT.csproj.GenerateResource.Cache
+C:\Users\IRIS\Desktop\ReadTXT\ReadTXT\obj\x86\Debug\ReadTXT.exe
+C:\Users\IRIS\Desktop\ReadTXT\ReadTXT\obj\x86\Debug\ReadTXT.pdb
+C:\Users\IRIS\Desktop\ReadTXT\ReadTXT\obj\x86\Debug\ReadTXT.csprojResolveAssemblyReference.cache
+C:\Users\IRIS\Desktop\ReadTXT(自動轉大寫)\ReadTXT\obj\x86\Debug\ReadTXT.exe
+C:\Users\IRIS\Desktop\ReadTXT(自動轉大寫)\ReadTXT\obj\x86\Debug\ReadTXT.pdb
+C:\Users\IRIS\Desktop\ReadTXT(自動轉大寫)\ReadTXT\bin\Debug\ReadTXT.exe
+C:\Users\IRIS\Desktop\ReadTXT(自動轉大寫)\ReadTXT\bin\Debug\ReadTXT.pdb
+C:\Users\IRIS\Desktop\ReadTXT(自動轉大寫)\ReadTXT\obj\x86\Debug\ReadTXT.csprojResolveAssemblyReference.cache
+C:\Users\IRIS\Desktop\ReadTXT(自動轉大寫)\ReadTXT\obj\x86\Debug\ReadTXT.Properties.Resources.resources
+C:\Users\IRIS\Desktop\ReadTXT(自動轉大寫)\ReadTXT\obj\x86\Debug\ReadTXT.ReadTxt.resources
+C:\Users\IRIS\Desktop\ReadTXT(自動轉大寫)\ReadTXT\obj\x86\Debug\ReadTXT.csproj.GenerateResource.Cache
+C:\Users\IRIS\Desktop\ReadTXT(自動轉大寫)\ReadTXT(自動轉大寫)\ReadTXT\obj\x86\Debug\ReadTXT.exe
+C:\Users\IRIS\Desktop\ReadTXT(自動轉大寫)\ReadTXT(自動轉大寫)\ReadTXT\obj\x86\Debug\ReadTXT.pdb
+C:\Users\IRIS\Desktop\ReadTXT(自動轉大寫)\ReadTXT(自動轉大寫)\ReadTXT\bin\Debug\ReadTXT.exe
+C:\Users\IRIS\Desktop\ReadTXT(自動轉大寫)\ReadTXT(自動轉大寫)\ReadTXT\bin\Debug\ReadTXT.pdb
+C:\Users\IRIS\Desktop\ReadTXT(自動轉大寫)\ReadTXT(自動轉大寫)\ReadTXT\obj\x86\Debug\ReadTXT.csprojResolveAssemblyReference.cache
+C:\Users\IRIS\Desktop\ReadTXT(自動轉大寫)\ReadTXT(自動轉大寫)\ReadTXT\obj\x86\Debug\ReadTXT.Properties.Resources.resources
+C:\Users\IRIS\Desktop\ReadTXT(自動轉大寫)\ReadTXT(自動轉大寫)\ReadTXT\obj\x86\Debug\ReadTXT.ReadTxt.resources
+C:\Users\IRIS\Desktop\ReadTXT(自動轉大寫)\ReadTXT(自動轉大寫)\ReadTXT\obj\x86\Debug\ReadTXT.csproj.GenerateResource.Cache
+C:\Users\IRIS\Desktop\ReadTXT(自動轉大寫)\ReadTXT(自動轉大寫)\ReadTXT\obj\x86\Debug\ReadTXT.PrintBarcodeList.resources
+D:\Microsoft C# 專案\ReadTXT(自動列印條碼)\ReadTXT\obj\x86\Debug\ReadTXT.exe
+D:\Microsoft C# 專案\ReadTXT(自動列印條碼)\ReadTXT\obj\x86\Debug\ReadTXT.pdb
+D:\Microsoft C# 專案\ReadTXT(自動列印條碼)\ReadTXT\bin\Debug\ReadTXT.exe
+D:\Microsoft C# 專案\ReadTXT(自動列印條碼)\ReadTXT\bin\Debug\ReadTXT.pdb
+D:\Microsoft C# 專案\ReadTXT(自動列印條碼)\ReadTXT\obj\x86\Debug\ReadTXT.csprojResolveAssemblyReference.cache
+D:\Microsoft C# 專案\ReadTXT(自動列印條碼)\ReadTXT\obj\x86\Debug\ReadTXT.PrintBarcodeList.resources
+D:\Microsoft C# 專案\ReadTXT(自動列印條碼)\ReadTXT\obj\x86\Debug\ReadTXT.Properties.Resources.resources
+D:\Microsoft C# 專案\ReadTXT(自動列印條碼)\ReadTXT\obj\x86\Debug\ReadTXT.ReadTxt.resources
+D:\Microsoft C# 專案\ReadTXT(自動列印條碼)\ReadTXT\obj\x86\Debug\ReadTXT.csproj.GenerateResource.Cache
+C:\Users\IRIS\Desktop\ReadTXT(自動列印條碼)\ReadTXT\obj\x86\Debug\ReadTXT.exe
+C:\Users\IRIS\Desktop\ReadTXT(自動列印條碼)\ReadTXT\obj\x86\Debug\ReadTXT.pdb
+C:\Users\IRIS\Desktop\ReadTXT(自動列印條碼)\ReadTXT\bin\Debug\ReadTXT.exe
+C:\Users\IRIS\Desktop\ReadTXT(自動列印條碼)\ReadTXT\bin\Debug\ReadTXT.pdb
+C:\Users\IRIS\Desktop\ReadTXT(自動列印條碼)\ReadTXT\obj\x86\Debug\ReadTXT.csprojResolveAssemblyReference.cache
+C:\Users\IRIS\Desktop\ReadTXT(自動列印條碼)\ReadTXT\obj\x86\Debug\ReadTXT.PrintBarcodeList.resources
+C:\Users\IRIS\Desktop\ReadTXT(自動列印條碼)\ReadTXT\obj\x86\Debug\ReadTXT.Properties.Resources.resources
+C:\Users\IRIS\Desktop\ReadTXT(自動列印條碼)\ReadTXT\obj\x86\Debug\ReadTXT.ReadTxt.resources
+C:\Users\IRIS\Desktop\ReadTXT(自動列印條碼)\ReadTXT\obj\x86\Debug\ReadTXT.csproj.GenerateResource.Cache
+C:\Users\IRIS\Desktop\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT\obj\x86\Debug\ReadTXT.exe
+C:\Users\IRIS\Desktop\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT\obj\x86\Debug\ReadTXT.pdb
+C:\Users\IRIS\Desktop\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT\bin\Debug\ReadTXT.exe
+C:\Users\IRIS\Desktop\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT\bin\Debug\ReadTXT.pdb
+C:\Users\IRIS\Desktop\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT\obj\x86\Debug\ReadTXT.PrintBarcodeList.resources
+C:\Users\IRIS\Desktop\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT\obj\x86\Debug\ReadTXT.Properties.Resources.resources
+C:\Users\IRIS\Desktop\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT\obj\x86\Debug\ReadTXT.ReadTxt.resources
+C:\Users\IRIS\Desktop\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT\obj\x86\Debug\ReadTXT.csproj.GenerateResource.Cache
+E:\Suyin_專案\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT\bin\Debug\ReadTXT.exe
+E:\Suyin_專案\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT\bin\Debug\ReadTXT.pdb
+E:\Suyin_專案\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT\obj\x86\Debug\ReadTXT.PrintBarcodeList.resources
+E:\Suyin_專案\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT\obj\x86\Debug\ReadTXT.Properties.Resources.resources
+E:\Suyin_專案\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT\obj\x86\Debug\ReadTXT.ReadTxt.resources
+E:\Suyin_專案\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT\obj\x86\Debug\ReadTXT.csproj.GenerateResource.Cache
+E:\Suyin_專案\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT\obj\x86\Debug\ReadTXT.exe
+E:\Suyin_專案\ReadTXT(自動列印條碼頁尾縮排調整)\ReadTXT\obj\x86\Debug\ReadTXT.pdb

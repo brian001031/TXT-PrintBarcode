@@ -1,0 +1,398 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+from __future__ import print_function
+import os
+import random
+
+
+list=[]
+list2=[]
+
+def ResetArraySort(th): 
+    for k in range(len(th)):
+        y =k+1
+        for y in range(len(th)-1):
+            if th[k]>th[y]:                      
+                temp = th[k]
+                th[k] =th[y]
+                th[y] =temp
+
+        #Swap(th[y],th[k])
+
+
+#change param position
+def Swap(x,y):
+    temp = x
+    x = y
+    y = temp
+
+    
+def partition(num,left,right,total):
+    s = num[right]
+    i = left -1
+    j = left
+    for j in range(right):
+        #as left nalue less than right 
+       if num[j] <= s:
+           i=i+1
+           Swap(num[i],num[j])
+
+    #let the rightest Value change position from 
+    Swap(num[i-1],num[right])
+    total = i+1
+           
+           
+                
+def quickSort(array ,left,right):
+    test = len(array)
+    if left < right:
+        partition(array,left,right,test)
+        quickSort(array,left,test-1)
+        quickSort(array,test+1,right)
+    
+
+
+def main():
+
+    runNum = 5
+  # first new insert random array(1) array(2)
+    for k in range(runNum):      
+      k = random.randrange(0,100,7)
+      t = random.randrange(0,50*2,2)      
+      list.append(k)
+      list2.append(t)
+
+    #Before Sorting 
+    print ( "ranlist Original = ", list ,"LEN = ",len(list))
+    print ( "ranlist2 Original = ", list2 ,"LEN = ",len(list2))
+    
+    #quickSort(list,0,runNum-1)
+    #quickSort(list2,0,runNum-1)
+    ResetArraySort(list)
+    ResetArraySort(list2)
+
+      
+    #After Sorting 
+    print ( "ranlist Sorting = ", list )
+    print ( "ranlist2 Sorting= ", list2 )
+
+    for k in range(len(list2)):
+        list.append(list2[k])
+    
+    print ( "MERGENCY_ADD = ", list  )
+
+    ResetArraySort(list)
+
+    print ( "2 MERGENCY_Sorting final = ", list  )
+
+
+    
+
+    
+  
+
+if __name__ == "__main__":
+    main()
+
+
+---------------------------------------------------------------------
+
+import java.io.*;
+import java.util.Scanner; 
+
+
+public class Triangle{
+	
+	public static void main(String[] args){
+		
+	
+		int total = 10, tmp1 = 0 ,tmp2 = 0;
+		int half =  total /2,param = 0 ;
+		int ileft =0,iright  =0;
+		boolean bcheck = false,bcheck2 = false;
+		int imove = 0,iMiddle = 0 ;
+
+		//input stream
+		java.io.InputStream input = System.in;   
+
+		System.out.print("Input W Number And H Number(W * H) to 2 End:");   			  	   		
+
+		//input Number
+		Scanner scan = new Scanner(System.in);
+		
+		int Num = scan.nextInt();
+		total = scan.nextInt();
+	
+		System.out.println("Num(W) = " + Num+" total(H) = " + total);
+		
+		
+		//if Num large than to  total,runable to bellow
+		if(Num > total)
+			Num = total;
+
+		//total = sum(Num);		
+		//System.out.println("Sum = " + total+" Num = " + Num);
+
+		iMiddle = total/2 + 1;
+		
+		int ct = 0 ,op = 0,op2 = 1,iDec = 0,icheck2 = 0 ,ioooo =0;
+		
+		//int iDecNUm = (Num*2)-1 ;
+					
+		for( int k = 1 ; k <= (Num*2) ; k++)
+		{
+			//int Delay = iMiddle-(k-1);
+			ct++;
+			int Delay = iMiddle - ct;
+			
+            if( Delay == 0)
+			{
+				bcheck = true;											
+			}
+			else if( bcheck && Delay !=0)
+			{
+							
+				
+			}				
+			else
+			{	
+			for(int i = 0 ; i < Delay ; i++)							
+				  System.out.print(" ");																						      
+			}
+				
+					
+					
+			if(bcheck)
+			{		
+				iDec++;
+		
+				int istar1 = iDec;
+				int istar2 = total - iDec;
+				
+				if( istar1 > istar2)
+					 break;
+							 				 	
+				for( int s = 0 ; s < total ; s++)			
+				{			 
+					 if( s == istar1 || s == istar2)
+					   System.out.print("*");
+                     else
+                       System.out.print(" ");
+									
+				}										
+			    
+				//bcheck = false;
+				//bcheck2 = true;
+				 
+			}	
+			else if( bcheck2)
+			{
+				/*
+				int istar1 = iDec;
+				int istar2 = icheck2 - iDec;
+				
+				if( istar1 > istar2)
+					 break;
+				
+				//for( int s = 0 ; s < icheck2 ; s++)
+				for( int s = 0 ; s < icheck2 ; s++)							
+				{				
+				   //if( s == 0 || s == icheck2 -1 )		
+				  if( s == istar1 || s == istar2-1 )							   
+					  System.out.print("*");
+				  else
+					  System.out.print(" ");				                      		
+				}
+				*/
+			}
+			else
+			{
+				//if( k == 1 || k == Num+1)
+                if( k == 1 || k == Num)						
+				{
+					if(k == 1)
+						System.out.print("*");										
+					else
+					{
+						icheck2 = (k*2)-1;
+						
+						for( int s = 0 ; s < (k*2)-1 ; s++)
+						{						        						
+							if( s == 0 || s == ((k*2)-2))				
+							  System.out.print("*");	
+							else
+								System.out.print(" ");	
+						}		
+                      					
+						 bcheck =false;
+						 bcheck2 =true;
+					}
+				}			
+				else
+				{
+					op2+=1;
+					op++;
+					
+					int idelay = op2+op;
+					
+					for( int s = 0 ; s < idelay ; s++)
+					{			  							
+						if( s == 0 || s == (idelay -1))											
+							System.out.print("*");	
+						else
+						  System.out.print(" ");									
+					}															
+				}
+ 															
+			}
+				 
+			//System.out.println("<- " + k );			 
+			System.out.println("");			 
+			
+		}
+		
+		/*
+		for( int k = 0 ; k < Num ; k++)
+		{
+			tmp1 = k ;
+			tmp2 = total - (k+1);
+			
+			//when tmp1 close tmp2
+			if( (tmp1 + 1) == tmp2 && bcheck == false )
+			{	
+				ileft = tmp1;
+				iright = tmp2;
+		
+				bcheck = true;		
+			}	
+			else if( bcheck == true)
+			{ 				 	
+				param++;
+				tmp1 = ileft - param;				
+				tmp2 = iright +param;										
+			}
+			
+								
+			for( int t = 0 ; t < total ; t++)
+			{
+				if( t == tmp1 ||  t == tmp2)		
+				{
+				
+					System.out.print("*");					
+				}
+				else					
+				{
+					
+					System.out.print("|");
+				}					
+			}
+			System.out.println("");
+			
+		}
+		*/
+	}
+	
+}
+
+while( str!="")
+{						 
+   tmp1++;
+   test="";
+   System.out.print("InputStr = ("+ str+") Please Input Enter to cutbackStr..." );  
+		
+   //(+)input again 
+   Scanner scan = new Scanner(System.in);
+				  
+   stouch = scan.nextLine();
+	  
+   if(stouch.equals("")) //method 1
+   {
+      for(int k = 0 ; k < ary.length-tmp1 ;k++)
+      {
+	 test +=ary[k];							 }
+	 str = test;
+   }		
+    else
+      System.out.print("Please Input Enter Again,Do Not include any Char" );				  				
+}
+
+
+if "%1"=="" (
+  echo Usage: freepdb filename
+  echo This will free all handles of VS2003 on filename.pdb
+  echo Requires the Handle utility from Windows Sysinternals
+  exit /b 1
+)
+
+cd /d "%~dp0"
+for /f "tokens=2-3 skip=5 delims=:" %%a in ('handle64 -p devenv.exe "%1.pdb"') do (
+  for /f "tokens=1,4" %%c in ("%%a %%b") do (
+    handle64 -p %%c -c %%d -y >NUL
+  )
+)
+exit /b 0
+
+#!/usr/local/bin/perl
+
+  my ($data, $i, @data, $key, $val, %FORM);
+
+  if ($ENV{'REQUEST_METHOD'} eq "GET") {
+    $data = $ENV{'QUERY_STRING'};
+  } elsif ($ENV{'REQUEST_METHOD'} eq "POST") {
+    read(STDIN,$data,$ENV{'CONTENT_LENGTH'});
+  }
+
+  @data = split(/&/,$data);
+
+  foreach $i (0 ..$#data) {
+    # Convert plus's to spaces
+    $data[$i] =~ s/\+/ /g;
+
+    # Split into key and value.
+    # splits on the first =
+    ($key, $val) = split(/=/,$data[$i],2);
+
+    # Convert %XX from hex numbers to alphanumeric
+    $key =~ s/%(..)/pack("c",hex($1))/ge;
+    $val =~ s/%(..)/pack("c",hex($1))/ge;
+
+    # Kill SSI command
+    $val =~ s/<!--(.|\n)*-->//g;
+
+    # Associate key and value
+    # \0 is the multiple separator
+    $FORM{$key} .= "\0" if (defined($FORM{$key}));
+    $FORM{$key} .= $val;
+
+  }
+
+
+print "Content-type: text/html\n\n";
+
+print "<html>\n";
+print "<head>\n";
+print "<title>CGI程式入門-範例1</title>\n";
+print "</head>\n";
+print "<body bgcolor=white>\n";
+
+print "CGI程式所收到的資料串是長的這個樣子的：<p>\N";
+print "$data<p>\n";
+print "<hr>\n";
+
+### Print variables
+  print "FORM裡面的資料經過程式處理之後就變成這樣了：<p>\n";
+  foreach $key (keys %FORM) {
+    print "$key = $FORM{$key}<br>\n";
+  }
+
+print "<hr>\n";
+
+### print %ENV
+  print "環境變數列表：<p>\n";
+  foreach $key (sort keys %ENV) {
+    print "$key = $ENV{$key}<br>\n";
+  }
+
+print "</body>\n";
+print "</html>\n";
+
